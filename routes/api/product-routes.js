@@ -18,6 +18,10 @@ router.get('/:id', (req, res) => {
 // create new product
 router.post('/', (req, res) => {
   /* req.body should look like this...
+
+
+  //use as req.body -- make sure to stringify them ****
+
     {
       product_name: "Basketball",
       price: 200.00,
