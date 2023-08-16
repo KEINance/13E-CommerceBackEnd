@@ -26,6 +26,9 @@ router.get('/:id', (req, res) => {
   .catch(err => res.status(400).json(err))
 });
 
+
+
+
 router.post('/', (req, res) => {
   // create a new category
   Category.create(req.body)
@@ -43,6 +46,11 @@ Category.update(req.body, {
   .then(data => res.status(200).json(data))
   .catch(err => res.status(400).json(err))
 });
+
+
+
+
+
 
 router.delete('/:id', (req, res) => {
   // delete a category by its `id` value
