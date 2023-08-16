@@ -31,10 +31,7 @@ router.get('/:id', (req, res) => {
 // create new product
 router.post('/', (req, res) => {
   /* req.body should look like this...
-
-
   //use as req.body -- make sure to stringify them ****
-
     {
       product_name: "Basketball",
       price: 200.00,
@@ -111,6 +108,12 @@ router.put('/:id', (req, res) => {
 
 router.delete('/:id', (req, res) => {
   // delete one product by its `id` value
+  Product.destroy({
+    where: {
+      id: req.params.id,
+    }})
+    .then(data => res.status(200).json(data))
+    .catch(err => res.status(400).json(err))
 });
 
 module.exports = router;
