@@ -9,6 +9,11 @@ I WANT a back end for my e-commerce website that uses the latest technologies
 SO THAT my company can compete with other e-commerce companies
 ```
 
+
+## Description
+
+Through this application the user will have the ability to view, update, delete, and create for different categories, products, and/or tags. 
+
 ## Acceptance Criteria
 
 ```md
@@ -30,3 +35,14 @@ THEN I am able to successfully create, update, and delete data in my database
 ![In Insomnia, the user tests “GET tag by id,” “GET Category by ID,” and “GET One Product.”](./Assets/13-orm-homework-demo-02.gif)
 
 ![In Insomnia, the user tests “DELETE Category by ID,” “CREATE Category,” and “UPDATE Category.”](./Assets/13-orm-homework-demo-03.gif)
+
+## Links
+
+GITHUB:
+https://github.com/KEINance
+
+Walkthrough:
+https://drive.google.com/file/d/1hJ5TPA64g5BRGsw-Kld_xF4Jmzl6tnGH/viewLinks
+Repo:
+https://github.com/KEINance/13E-CommerceBackEnd
+
